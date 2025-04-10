@@ -28,7 +28,7 @@ export default function Carrito() {
                                     key={id}
                                 >
                                     <td className="align-middle">
-                                        <img className="img-fluid" src={`/img/${image}.jpg`} alt={name} />
+                                        <img className="img-fluid" src={`img/${image}.jpg`} alt={name} />
                                     </td>
                                     <td className="align-middle">{name}</td>
                                     <td className="fw-bold align-middle">$ {price.toLocaleString()}</td>
